@@ -14,7 +14,7 @@ img {
 .debug header {
     background-color: aqua;
     min-height: 80px;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .debug main {
@@ -44,7 +44,7 @@ img {
 .container_h {
     max-width: 900px;
     margin: 0 auto;
-    background-color: blue;
+    background-color: rgb(74, 74, 155);
 }
 
 .row {
@@ -76,14 +76,58 @@ img {
 .container_opening {
     margin: 0 auto;
     padding: 40px 200px;
-    background-color: blue;
+    background-color: rgb(56, 56, 177);
 }
 
 .opening_box {
-    background-color: blueviolet;
+    background-color: rgb(159, 107, 207);
     padding: 40px;
     min-height: 300px;
-    border: 2px dotted red;
+    border: 3px dotted red;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
+/* sezioni centrali */
 
+/* layout pic+text */
+
+.background_one_three{
+    background-color: white;
+}
+
+.container_section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.row-col-2 > .figure {
+    flex-basis: 60%;
+    min-height: 400px;
+    background-color: cornflowerblue;
+}
+
+.row-col-2 > .text_one {
+    flex-basis: 40%;
+    min-height: 400px;
+    background-color: pink;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* layout pic+text ended */
+
+.container_end {
+    margin: 0 auto;
+    padding: 40px 0;
+    max-width: 900px;
+}
+
+.content_end {
+    background-color: rgb(31, 121, 31);
+    min-height: 900px;
+    border: 3px dotted blue;
+}
