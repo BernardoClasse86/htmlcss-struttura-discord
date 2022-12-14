@@ -1,0 +1,74 @@
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* debug */
+
+.debug header {
+    background-color: aqua;
+    min-height: 80px;
+    padding: 20px;
+}
+
+.debug main {
+    background-color: lightgrey;
+    min-height: 800px;
+}
+
+.debug footer {
+    background-color: rgb(71, 71, 71);
+    min-height: 300px;
+}
+
+.debug [class^='col'] {
+    border: 3px dotted black;
+    padding: 8px;
+}
+
+.debug .row {
+    border: 2px solid salmon;
+    padding: 10px;
+}
+
+/* debug */
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: blue;
+}
+
+.row {
+    display: flex;
+}
+
+.row-col-3 > .col {
+    flex-basis: calc(100% / 3);
+}
+
+.row-col-3 > .link {
+    flex-basis: 66%;
+}
+
+.logo {
+    text-align: left;
+}
+
+.link {
+    text-align: center;
+}
+
+.login {
+    text-align: end;
+}
+
+
+
+
