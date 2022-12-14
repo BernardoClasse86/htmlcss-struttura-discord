@@ -131,3 +131,26 @@ img {
     min-height: 900px;
     border: 3px dotted blue;
 }
+
+/* footer start */
+
+.foot_section_one {
+    border-bottom: 1px solid white;
+}
+
+.container_foot {
+    margin: 0 auto;
+    padding: 40px 0;
+    max-width: 900px;
+}
+
+.row-col-5> .col {
+    flex-basis: calc(100% / 5);
+    min-height: 400px;
+    background-color: rgb(16, 124, 73);
+}
+
+.row-col-5> .language {
+    flex-basis: 40%;
+    background-color: tomato;
+}
