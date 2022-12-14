@@ -34,7 +34,6 @@ img {
 
 .debug .row {
     border: 2px solid salmon;
-    padding: 10px;
 }
 
 /* debug */
@@ -44,7 +43,7 @@ img {
 .container_h {
     max-width: 900px;
     margin: 0 auto;
-    background-color: rgb(74, 74, 155);
+    background-color: rgb(212, 156, 70);
 }
 
 .row {
@@ -140,7 +139,7 @@ img {
 
 .container_foot {
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 10px 0px 20px;
     max-width: 900px;
 }
 
@@ -154,3 +153,29 @@ img {
     flex-basis: 40%;
     background-color: tomato;
 }
+
+/* footer two */
+
+.container_foot_two {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 0px 0px;
+}
+
+.container_foot_two > .row {
+    background-color: aqua;
+}
+
+.row-col-foot {
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+
+.logo_end {
+    background-color: pink;
+}
+
+.register {
+    background-color: pink;
+}
+
