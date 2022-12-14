@@ -39,7 +39,9 @@ img {
 
 /* debug */
 
-.container {
+/* header */
+
+.container_h {
     max-width: 900px;
     margin: 0 auto;
     background-color: blue;
@@ -69,6 +71,19 @@ img {
     text-align: end;
 }
 
+/* opening */
 
+.container_opening {
+    margin: 0 auto;
+    padding: 40px 200px;
+    background-color: blue;
+}
+
+.opening_box {
+    background-color: blueviolet;
+    padding: 40px;
+    min-height: 300px;
+    border: 2px dotted red;
+}
 
 
