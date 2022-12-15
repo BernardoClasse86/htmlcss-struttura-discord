@@ -5,25 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord</title>
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="./css/app.css">
 </head>
 <body class="debug">
 
     <!-- header w/ nav -->
 
-    <header>
-        <div class="container_h">
-            <div class="row row-col-3">
+    <header class="main-header">
+        <div class="container">
+            <div class="row justify-between items-center">
 
-                <div class="col logo"> 
-                    logo
+                <div class="col logo-icon">
+                    <div class="logo">
+                        Logo
+                    </div>
                 </div>
 
-                <nav class="col link">
-                    link link link link link
+                <nav class="col">
+                    <ul class="row links">
+                        <li class="col-link-1">alink</li>
+                        <li class="col-link-2">blink</li>
+                        <li class="col-link-3">clink</li>
+                        <li class="col-link-4">dlink</li>
+                        <li class="col-link-5">elink</li>
+                    </ul>
                 </nav>
 
-                <div class="col login"> 
+                <div class="col"> 
                     login
                 </div>
 
@@ -31,94 +39,172 @@
         </div>
     </header>
 
-    <!-- opening -->
-
-    <div class="container_opening">
-        <section class="opening_box">
-            
-        </section>
-    </div>
-
     <!-- main section articles -->
 
-    <main>
-    
-        <section class="background_one_three">
+    <main class="main-content">
 
-            <div class="container_section">
-                <div class="row row-col-2">
-                    <div class="col figure"></div>
-                    <div class="col text_one"></div>
-                </div>
-                
-            </div>
-    
-        </section>
-    
-        <section>
+        <!-- opening -->
 
-            <div class="container_section">
-                <div class="row row-col-2 reverse">
-                    <div class="col figure"></div>
-                    <div class="col text_one"></div>
-                </div>
+        <section class="opening">
 
+            <div class="container_opening">
+                contenuto opening
             </div>
 
         </section>
     
-        <section class="background_one_three">
-        
-            <div class="container_section">
-                <div class="row row-col-2">
-                    <div class="col figure"></div>
-                    <div class="col text_one"></div>
+        <!-- /opening -->
+
+        <!-- main content -->
+
+        <section class="section">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-figure">
+                        image
+                    </div>
+                    <div class="col-text">
+                        text
+                    </div>
+                </div>   
+            </div>
+    
+        </section>
+    
+        <section class="section bg-grey">
+
+            <div class="container">
+                <div class="row reverse">
+                    <div class="col-figure">
+                        image
+                    </div>
+                    <div class="col-text">
+                        text
+                    </div>
                 </div>
+
+            </div>
+
+        </section>
+    
+        <section class="section">
         
+            <div class="container">
+                <div class="row">
+                    <div class="col-figure">
+                        image
+                    </div>
+                    <div class="col-text">
+                        text
+                    </div>
+                </div>
             </div>
         
         </section>
     
-        <section>
+        <section class="section bg-grey">
 
-            <div class="container_end">
-                <div class="content_end"></div>
-
+            <div class="container">
+               <div class="row">
+                    <div class="col-full">
+                        contenuto
+                    </div>
+               </div>
             </div>
             
         </section>
+
+        <!-- /main content -->
     
     </main>
 
-    <!-- footers -->
+    <!-- footer -->
 
-    <footer>
+    <footer class="page-footer">
 
-        <section class="foot_section_one">
+        <!-- footer-1 -->
 
-            <div class="container_foot">
-                <div class="row row-col-5">
-                    <div class="col language"></div>
-                    <div class="col product"></div>
-                    <div class="col company"></div>
-                    <div class="col resources"></div>
-                    <div class="col policys"></div>
+        <section class="section">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-33">
+                        1/3
+                    </div>
+
+                    <div class="col-16">
+                        <ul>
+                            <li>text1</li>
+                            <li>text1</li>
+                            <li>text1</li>
+                            <li>text1</li>
+                            <li>text1</li>
+                            <li>text1</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-16">
+                        <ul>
+                            <li>text2</li>
+                            <li>text2</li>
+                            <li>text2</li>
+                            <li>text2</li>
+                            <li>text2</li>
+                            <li>text2</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-16">
+                        <ul>
+                            <li>text3</li>
+                            <li>text3</li>
+                            <li>text3</li>
+                            <li>text3</li>
+                            <li>text3</li>
+                            <li>text3</li>
+                            <li>text3</li>
+                            <li>text3</li>
+                            <li>text3</li>
+                            <li>text3</li>
+                            <li>text3</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-16">
+                        <ul>
+                            <li>text4</li>
+                            <li>text4</li>
+                            <li>text4</li>
+                            <li>text4</li>
+                            <li>text4</li>
+                            <li>text4</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 
         </section>
 
-        <section class="foot-section-two">
+        <!-- /footer-1 -->
 
-            <div class="container_foot_two">
-                <div class="row row-col-foot">
-                    <div class="col logo_end">logo</div>
-                    <div class="col register">bottone</div>
+        <!-- footer-2 -->
+
+        <section class="section">
+
+            <div class="container">
+                <div class="row justify-between items-center">
+                    <div class="col">logo</div>
+                    <div class="col">bottone</div>
             </div>
 
         </section>
 
+        <!-- /footer-2 -->
+
     </footer>
+
+    <!-- /footer -->
 
 </body>
 </html>
